@@ -8,37 +8,37 @@
     <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 
-  <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjmaq2SZIPapnleYQiBRwe18-agzYdcW0&libraries=visualization">
-</script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <script src="index.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="launch.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="savior.css">
     <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjmaq2SZIPapnleYQiBRwe18-agzYdcW0&callback=initMap"
-         async defer></script>
-    <nav class="purple darken-4">
-    <div class="nav-wrapper container">
-      <a href="#" class="brand-logo">Savior</a>
-    </div>
-  </nav>
-
-  <div class="row body">
-    <div class="col s12 m6 l3 sidebar container center-align">
-      <a href="#" class="btn-flat req">Request a savior</a>
-      <a href="data.html" class="btn-flat dat">View alert data</a>
-      <a href="savior.html" class="btn-flat dat">Become a savior</a>
-      <div class="divider">
+    <div class="row">
+      <div class="col m2 l2 hide-on-small-only">
 
       </div>
-      <a href="#" class="btn-floating btn-large red alert" style="color: white"><i class="large material-icons">new_releases</i></a>
-    </div>
-    <div class="col m6 l9 hide-on-small-only map" id="map">
+      <div class="col m8 l8 s12 offset-m2 offset-l2 center-align mid">
+        <h1 class="title" style="font-size: 100px; opacity: 0">Savior</h1>
+        <h4 class="sub" style="opacity: 0">Making communities safer</h4>
+        <h1 class="para" style="opacity: 0">–</h1>
+        <p class="para" style="opacity: 0">
+          We believe that community safetly can only manifest itself if the community works together.
+          That is why we created Savior, a way for people to build a safer community.
+          Savior is an app that lets you travel safely at night, or any time of the day. Summoning a savior
+          calls a trained and certified walking companion to your location. Our app and map gives travel times for your
+            nearest savior. In pressing situations, pressing the circular alert button broadcasts an alert to nearby saviors.
+            Our android application also collects video and audio footage of the incident to record what happens. Anyone
+            with a First Aid certification can volunteer their time to make communities safer, one savior at a time.
+        </p>
+        <a class="para" href="map.html" style="opacity: 0">Take me to the map</a>
+      </div>
+      <div class="col m2 l2 hide-on-small-only">
 
+      </div>
     </div>
-  </div>
   </body>
 </html>

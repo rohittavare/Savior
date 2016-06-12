@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Savior</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+  <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjmaq2SZIPapnleYQiBRwe18-agzYdcW0&libraries=visualization">
+</script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjmaq2SZIPapnleYQiBRwe18-agzYdcW0&callback=initMap"
+         async defer></script>
+    <nav class="purple darken-4">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">Savior</a>
+    </div>
+  </nav>
+
+  <div class="row body">
+    <div class="col s12 m6 l3 sidebar container center-align">
+      <a href="#" class="btn-flat req">Request a savior</a>
+      <a href="data.html" class="btn-flat dat">View alert data</a>
+      <a href="savior.html" class="btn-flat dat">Become a savior</a>
+      <div class="divider">
+
+      </div>
+      <a href="#" class="btn-floating btn-large red alert" style="color: white"><i class="large material-icons">new_releases</i></a>
+    </div>
+    <div class="col m6 l9 hide-on-small-only map" id="map">
+
+    </div>
+  </div>
+  </body>
+</html>
