@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Savior</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="savior.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="savior.css">
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col m2 l2 hide-on-small-only">
+
+      </div>
+      <div class="col m8 l8 s12 offset-m2 offset-l2 center-align mid">
+        <h1 class="text">Becoming a Savior</h1>
+        <h4 class="text">Step 1:</h4>
+        <p class="text">
+          complete the paperwork and testing that can be found on
+          <a href="http://www.redcross.org/take-a-class/cna-training">this site</a>
+          and submit it to hr@savior.com
+        </p>
+        <h4 class="text">Step 2:</h4>
+        <p class="text">
+          Enter your name and confirmation code after your application has been processed.
+        </p>
+        <div class="input-field">
+          <input id="first_name" type="text">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field">
+          <input id="last_name" type="text">
+          <label for="last_name">Last Name</label>
+        </div>
+        <div class="input-field">
+          <input id="code" type="text">
+          <label for="code">Confirmation code</label>
+        </div>
+        <a href="#" class="btn submit"> Submit</a>
+        <h1 style="display:none" class="ty">Thank You!</h1>
+        <a href="index.html" class="ty" style="display:none">return to map</a>
+      </div>
+      <div class="col m2 l2 hide-on-small-only">
+
+      </div>
+    </div>
+  </body>
+</html>
